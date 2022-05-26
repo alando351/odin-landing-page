@@ -39,3 +39,53 @@ body {
     padding:  8px;
     font-family: 'Roboto',Arial;
 }
+
+/* Main Area */
+
+.main {
+    display: flex;
+    background-color: #1F2937;
+    color:  #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main-text {
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 40px;
+    
+}
+
+.main-text p {
+    font-family: 'Roboto',Arial;
+    font-size:  18px;
+    color: #e5e7eb;
+}
+
+.main-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.main button{
+    display: block;
+    text-align: center;
+    background: #3882f6;
+    padding: 10px;
+    color: #fff;
+    border-radius:  6px;
+    border: none;
+
+}
+
+.main-image img {
+    width: 400px;
+    height: 300px; 
+}
+
+/* Quote Area */
