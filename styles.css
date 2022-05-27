@@ -88,4 +88,45 @@ body {
     height: 300px; 
 }
 
+/* Info Area */
+
+.info {
+    align-items: center;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-content img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #1F2937;
+    margin: 5px 15px 0px 15px; 
+}
 /* Quote Area */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    background-color: #e5e7eb;
+}
+
+.quote p {
+    font-size: 36px; 
+    color: #1F2937;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.quote b {
+    font-family: 'Roboto', arial;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
